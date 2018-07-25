@@ -30,7 +30,10 @@ def some_puppies (number_of_puppies)(max_puppy_allowance)
   if number_of_puppies < max_puppy_allowance * 0.5  
     puts "good job"
   elsif number_of_puppies > max_puppy_allowance 
-    puts ""
+    puts "get back on your puppy restriction"
+  end
+end
+
 
 
 # BONUS
