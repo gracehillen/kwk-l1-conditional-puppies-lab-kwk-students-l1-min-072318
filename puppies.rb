@@ -1,4 +1,3 @@
-
 def no_puppies (number_of_puppies)
   if number_of_puppies > 0
     puts "No more puppies!"
@@ -7,7 +6,7 @@ def no_puppies (number_of_puppies)
   end
 end
 
-no_puppies(0)
+puts no_puppies(0)
 no_puppies(5)
 
 
